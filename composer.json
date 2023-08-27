@@ -1,0 +1,14 @@
+{
+    "name": "bbroadcast/broadcast",
+    "description": "Library for interacting with the Pusher REST API",
+    "require": {
+        "php": "^7.3|^8.0",
+        "textalk/websocket": "^1.6",
+        "php-http/message": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "BBroadcast\\": "src/"
+        }
+    }
+}

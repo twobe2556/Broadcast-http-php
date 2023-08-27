@@ -1,8 +1,6 @@
 <?php
 namespace nClinic;
 
-require 'vendor/autoload.php';
-
 use WebSocket\Client;
 
 class broadcast
