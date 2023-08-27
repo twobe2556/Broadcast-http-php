@@ -1,5 +1,5 @@
 {
-    "name": "bbroadcast/broadcast",
+    "name": "nClinic/broadcast",
     "description": "Library for interacting with the Pusher REST API",
     "require": {
         "php": "^7.3|^8.0",
