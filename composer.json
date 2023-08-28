@@ -1,5 +1,5 @@
 {
-    "name": "nclinic/broadcast",
+    "name": "nclinic/broadcast-http-php",
     "description": "Library for interacting with the Pusher REST API",
     "license": "MIT",
     "require": {
