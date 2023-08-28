@@ -1,6 +1,7 @@
 {
     "name": "nclinic/broadcast",
     "description": "Library for interacting with the Pusher REST API",
+    "license": "MIT",
     "require": {
         "php": ">=7.3",
         "textalk/websocket": "^1.6",
@@ -11,9 +12,5 @@
             "BBroadcast\\": "src/"
         }
     },
-    "version": "v1.0.0",
-    "license": [
-        "MIT"
-    ],
     "minimum-stability": "dev"
 }
