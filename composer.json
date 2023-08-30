@@ -2,6 +2,7 @@
     "name": "nclinic/broadcast-http-php",
     "description": "Library for interacting with the Pusher REST API",
     "license": "MIT",
+    "type": "library",
     "require": {
         "php": ">=7.3",
         "textalk/websocket": "^1.6",
