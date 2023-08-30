@@ -1,4 +1,5 @@
 <?php
+
 namespace nClinic;
 
 use WebSocket\Client;
@@ -18,7 +19,7 @@ class broadcast
             $message = [
                 'channel' => $channel,
                 'event' => $event,
-                'message' => $data
+                'data' => $data
             ];
 
             @$this->client->send(json_encode($message));
