@@ -1,22 +1,21 @@
 {
     "name": "nclinic/broadcast-http-php",
-    "description": "Library for interacting with the Pusher REST API",
+    "description": "Library push message to server",
     "type": "library",
+    "require": {
+        "textalk/websocket": "^1.6",
+        "php-http/message": "^1.16"
+    },
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "nclinic\\crm\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "nutthapong phensuk",
             "email": "nutthapong.phensuk@gmail.com"
         }
-    ],
-    "require": {
-        "php": ">=7.3",
-        "textalk/websocket": "^1.6",
-        "php-http/message": "^1.16"
-    },
-    "autoload": {
-        "psr-4": {
-            "nclinic\\crm\\": "src/"
-        }
-    }
+    ]
 }
