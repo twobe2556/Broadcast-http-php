@@ -1,6 +1,6 @@
 <?php
 
-namespace nclinic;
+namespace nclinic\crm;
 
 use WebSocket\Client;
 
