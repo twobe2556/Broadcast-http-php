@@ -24,9 +24,11 @@ class broadcast
 
             @$this->client->send(json_encode($message));
             $this->Close();
+            return true;
         } catch (\Throwable $th) {
             // throw $th;
-            echo "Error: Disconnected from the server";
+            //echo "Error: Disconnected from the server";
+            return false;
         }
     }
 
